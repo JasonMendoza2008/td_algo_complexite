@@ -1,1 +1,1 @@
-Resources for CS students following the class Algorithms and complexity
+Resources for CS students following the course Algorithms and complexity
