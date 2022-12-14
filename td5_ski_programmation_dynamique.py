@@ -6,7 +6,7 @@ def ski(nbr_ski: int, nbr_skieurs: int, tailles_ski: list[float], tailles_skieur
     :param nbr_skieurs: nombre de skieurs
     :param tailles_ski: liste triée des tailles des skis
     :param tailles_skieurs: liste triée des tailles des skieurs
-    :return:
+    :return: somme des valeurs absolus des différences de taille entre les skis et les skieurs
     """
     sol: list[list[float]] = [[0 for _ in range(nbr_skieurs+1)] for _ in range(nbr_ski+1)]
 
